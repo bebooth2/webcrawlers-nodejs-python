@@ -3,7 +3,7 @@ import csv
 import time, datetime
 import sqlite3
 
-csv_file = open("yahoo_finacial.csv", "w")
+csv_file = open("yahoo_financial.csv", "w")
 csv_writer = csv.writer(csv_file)
 
 #csv.writer.writerow([""])
