@@ -6,7 +6,7 @@ const port = process.env.PORT || 8000;
 
 // connect to a databases in this folder made from webcrawl
 // using puppeteer
-// come back and put in get route and close
+// come back and put in GET routes and close
 const db = new sqlite3.Database("stocks", sqlite3.OPEN_READONLY, (err)=>{
 	if(err){
 		console.log(err)
