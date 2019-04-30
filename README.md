@@ -1,4 +1,4 @@
 # webcrawlers-nodejs-python-nodejs-RESTful-API
 The Node js web crawler uses puppeteer and loads data to a sqlite3 database. 
-The python version uses requests_html and HTML, AsyncHTMLSession
-A Restful Apis with Nodejs Express and Ejs
+The python version uses requests_html and HTML, AsyncHTMLSession.
+Restful Apis with Nodejs Express and Ejs
