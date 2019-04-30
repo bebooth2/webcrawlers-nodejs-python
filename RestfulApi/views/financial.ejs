@@ -1,0 +1,18 @@
+<% include partials/header %>
+
+<div class = "form">
+<h1>Pick the stock</h1>
+<form action = "/financial" method= "POST">
+	<select name = "stock">
+		<option value = "Dow">Dow</option>
+		<option value = "Nasdaq">Nasdaq</option>
+		<option value = "S&P 500">S&P</option>
+		<option value = "Gold">Gold</option>
+		<option value = "Oil">Oil</option>
+		<option value = "GlobalDow">GlobalDow</option>
+	</select>
+	<input type = "submit">
+</form>
+</div>
+
+<% include partials/footer %>
