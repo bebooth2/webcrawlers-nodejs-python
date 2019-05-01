@@ -43,11 +43,16 @@ app.post("/financial", (req, res)=>{
 	console.log(stockId)
 	stocks = [];
 	async function getGraphs(){
-	const db = await getdatabase("portfoliostocks.db");
-	const data = await getdata(db, stockId);
-	res.render("graphs", {stockVar: stocks});
-	}
-	getGraphs();	
+	    try{
+		const db = await getdatabase("portfoliostocks.db");
+		const data = await getdata(db, stockId);
+		res.render("graphs", {stockVar: stocks});
+		}
+	   catch(err){
+                console.log(err.message)
+		}}
+	getGraphs();
+	
 });
 */
 
