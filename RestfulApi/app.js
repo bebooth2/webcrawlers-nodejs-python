@@ -37,7 +37,19 @@ app.post("/financial", (req, res)=>{
 			})
 		.catch(err => console.log("Error"))
 	});
-	
+/* Async and Await version
+app.post("/financial", (req, res)=>{
+	let stockId = req.body.stock;
+	console.log(stockId)
+	stocks = [];
+	async function getGraphs(){
+	const db = await getdatabase("portfoliostocks.db");
+	const data = await getdata(db, stockId);
+	res.render("graphs", {stockVar: stocks});
+	}
+	getGraphs();	
+});
+*/
 
 	
 app.get("*", (req,res)=>{
