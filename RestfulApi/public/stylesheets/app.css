@@ -1,0 +1,27 @@
+body{
+	background-color: #42f4f4
+	
+}
+.line{
+	fill: none
+	stroke; #ffffff;
+	stroke-with;3;
+}
+
+.overlay{
+	fill:none;
+	pointer-events: all;
+}
+.form{
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.footer{
+	margin-top: 50vh;
+
+}
+.svg{
+	background-color: #000000;
+	color: #42f4f4;
+	font-size: 100px;
+}
